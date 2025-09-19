@@ -1,51 +1,34 @@
-# DeOlho NoLixo: Monitoramento Cidadão de Resíduos (Projeto Acadêmico)
+### **Descrição Geral do Projeto**
 
+#### **Nome do Projeto**
 
-> Protótipo de aplicativo móvel desenvolvido para o estudo de soluções tecnológicas aplicadas à gestão de resíduos sólidos urbanos, capacitando o cidadão como agente de transformação ambiental.
+DeOlho NoLixo - Monitoramento Cidadão de Resíduos
 
-### **Sumário**
+#### **Descrição do Produto**
 
-1. [Visão Geral](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#1-vis%C3%A3o-geral)
-2. [Contexto e Problema](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#2-contexto-e-problema)
-3. [A Solução Proposta](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#3-a-solu%C3%A7%C3%A3o-proposta)
-4. [Público-Alvo](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#4-p%C3%BAblico-alvo)
-5. [Arquitetura e Tecnologias](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#5-arquitetura-e-tecnologias)
-6. [Status do Projeto](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#6-status-do-projeto)
-7. [Autores](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#7-autores)
-8. [Licença](https://www.getmerlin.in/pt/chat/3879187e-aca3-4374-95ea-03bab863c923#8-licen%C3%A7a)
+Aplicativo móvel colaborativo para registrar, monitorar e denunciar pontos de descarte irregular de lixo. O sistema permite que os cidadãos usem a câmera e o GPS de seus celulares para criar denúncias com evidências fotográficas e geolocalização precisa. As ocorrências são exibidas em um feed público, onde a comunidade pode acompanhar o status (ex: "Novo", "Em Análise", "Resolvido"), promovendo transparência e engajamento.
 
-### **1. Visão Geral**
+#### **Objetivo**
 
-O projeto **DeOlho NoLixo** consiste no desenvolvimento de um protótipo funcional de aplicativo móvel colaborativo. O sistema tem o intuito de permitir que cidadãos registrem, monitorem e denunciem pontos de descarte irregular de resíduos sólidos. Através do uso de tecnologias móveis, como câmera e GPS, a plataforma visa criar um canal de comunicação direto e eficiente entre a população e os órgãos públicos, transformando dados gerados por cidadãos em informações estratégicas para a gestão urbana.
+O objetivo do projeto é desenvolver um protótipo funcional de um aplicativo que sirva como um canal eficiente de participação cidadã. A ferramenta visa facilitar a identificação, a documentação e o monitoramento colaborativo de pontos de descarte irregular de resíduos, fornecendo dados estruturados para os órgãos públicos e promovendo um ambiente urbano mais limpo e saudável através da tecnologia.
 
-O objetivo principal deste trabalho acadêmico é explorar e demonstrar a viabilidade de uma solução tecnológica para um problema cívico, focando na usabilidade, no impacto social potencial e na simplicidade da arquitetura.
+#### **Motivação**
 
-### **2. Contexto e Problema**
+A motivação central é combater o problema crônico do descarte irregular de lixo em áreas urbanas, que gera riscos à saúde pública e degradação ambiental. O projeto busca dar visibilidade a esses "lixões a céu aberto", que muitas vezes são invisíveis às autoridades. Além disso, visa superar a ineficiência dos canais de comunicação tradicionais, capacitando o cidadão e fomentando um senso de responsabilidade coletiva na fiscalização e cuidado com o espaço público.
 
-O descarte irregular de lixo em áreas urbanas é um desafio crônico que afeta a saúde pública e a sustentabilidade ambiental das cidades. A motivação para este projeto surge da observação de que a falta de visibilidade e de canais de comunicação eficientes perpetua a existência de "lixões a céu aberto". Este cenário gera não apenas poluição visual e riscos sanitários, mas também um ciclo de desengajamento cívico, onde a população se sente impotente para solucionar o problema.
+#### **Equipe de Desenvolvimento**
 
-### **3. A Solução Proposta**
+**Autores**
+-   **Alejjandro Martins Dutra**
+-   **Dieglison Correia Varejão**
+-   **Joel Carlos Alípio dos Santos Junior**
+-   **Lanna da Silva Lima**
+-   **Peterson Kevyn Silva de Souza**
 
-Um ecossistema digital onde o cidadão é o protagonista. O aplicativo **DeOlho NoLixo** atua como uma ponte, convertendo uma simples observação em uma denúncia estruturada e georreferenciada.
+#### **Descrição dos Usuários Finais**
 
-#### **Principais Funcionalidades:**
+Os usuários finais do aplicativo são:
 
-- **Registro Inteligente:** O usuário captura uma foto e o sistema anexa automaticamente as coordenadas de GPS, criando uma evidência robusta com data, hora e local exatos.
-- **Formulário Simplificado:** Campos pré-definidos para categorizar o tipo de resíduo (doméstico, entulho, eletrônico) e um campo de descrição para contextualizar o problema.
-- **Feed Público e Transparente:** Um feed interativo exibe todas as denúncias, permitindo que a comunidade visualize os problemas da sua região e acompanhe o status de cada ocorrência (ex: _Em Análise, Resolvido_).
-- **Comunicação Direta:** Uma funcionalidade para exportar e compartilhar a denúncia completa por e-mail, direcionando-a facilmente aos órgãos competentes.
+-   **Cidadãos (Pessoas Físicas):** Moradores de um município preocupados com o meio ambiente e a limpeza de seus bairros. Utilizam o aplicativo para denunciar pontos de descarte irregular, anexar fotos, descrever o problema e acompanhar o status das denúncias na sua região.
 
-### **4. Público-Alvo**
-
-O ecossistema foi projetado para atender a dois perfis de usuários principais:
-
-- **Cidadão Engajado:** Moradores (pessoas físicas) que desejam contribuir ativamente para a melhoria do seu bairro e cidade. Utilizam o app para reportar problemas de forma rápida e acompanhar o impacto de suas ações.
-- **Gestor Público Municipal:** Equipes de secretarias de meio ambiente, limpeza urbana ou subprefeituras. Utilizam a plataforma como uma ferramenta de diagnóstico, recebendo dados georreferenciados para otimizar a alocação de recursos e planejar ações de fiscalização e limpeza.
-
-### **5. Autores**
-
-- **Alejjandro Martins Dutra**
-- **Dieglison Correia Varejão**
-- **Joel Carlos Alípio dos Santos Junior**
-- **Lanna da Silva Lima**
-- **Peterson Kevyn Silva de Souza**
+-   **Gestores Públicos (Órgãos Municipais):** Funcionários de secretarias de meio ambiente, limpeza urbana ou subprefeituras que recebem as denúncias de forma organizada e georreferenciada. Utilizam os dados para planejar ações de fiscalização, limpeza e avaliar a eficácia das políticas públicas.
