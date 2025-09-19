@@ -5,10 +5,10 @@
 
 ### **Sumário**
 
-1. [Visão Geral]()
-2. [Requisitos Funcionais - (Específico)]()
-3. [Requisitos Não Funcionais - (Específico)]()
-4. [Regras de Negócios - (Específico)]()
+1. [Visão Geral](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/1%20-%20Descri%C3%A7%C3%A3o.md)
+2. [Requisitos Funcionais - (Específico)](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/2%20-%20Requisitos%20Funcionais%20-%20(Espec%C3%ADfico).md)
+3. [Requisitos Não Funcionais - (Específico)](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/3%20-%20Requisitos%20N%C3%A3o%20Funcionais%20-%20(Espec%C3%ADfico).md)
+4. [Regras de Negócios - (Específico)](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/4%20-%20Regras%20de%20Neg%C3%B3cios%20-%20(Espec%C3%ADfico).md)
 
 <br>
 
@@ -16,17 +16,17 @@
 
 <br>
 
-### **1. Visão Geral**
+### **Visão Geral**
 
 O projeto **DeOlho NoLixo** consiste no desenvolvimento de um protótipo funcional de aplicativo móvel colaborativo. O sistema tem o intuito de permitir que cidadãos registrem, monitorem e denunciem pontos de descarte irregular de resíduos sólidos. Através do uso de tecnologias móveis, como câmera e GPS, a plataforma visa criar um canal de comunicação direto e eficiente entre a população e os órgãos públicos, transformando dados gerados por cidadãos em informações estratégicas para a gestão urbana.
 
 O objetivo principal deste trabalho acadêmico é explorar e demonstrar a viabilidade de uma solução tecnológica para um problema cívico, focando na usabilidade, no impacto social potencial e na simplicidade da arquitetura.
 
-### **2. Contexto e Problema**
+### **Contexto e Problema**
 
 O descarte irregular de lixo em áreas urbanas é um desafio crônico que afeta a saúde pública e a sustentabilidade ambiental das cidades. A motivação para este projeto surge da observação de que a falta de visibilidade e de canais de comunicação eficientes perpetua a existência de "lixões a céu aberto". Este cenário gera não apenas poluição visual e riscos sanitários, mas também um ciclo de desengajamento cívico, onde a população se sente impotente para solucionar o problema.
 
-### **3. A Solução Proposta**
+### **A Solução Proposta**
 
 Um ecossistema digital onde o cidadão é o protagonista. O aplicativo **DeOlho NoLixo** atua como uma ponte, convertendo uma simples observação em uma denúncia estruturada e georreferenciada.
 
@@ -37,17 +37,18 @@ Um ecossistema digital onde o cidadão é o protagonista. O aplicativo **DeOlho 
 - **Feed Público e Transparente:** Um feed interativo exibe todas as denúncias, permitindo que a comunidade visualize os problemas da sua região e acompanhe o status de cada ocorrência (ex: _Em Análise, Resolvido_).
 - **Comunicação Direta:** Uma funcionalidade para exportar e compartilhar a denúncia completa por e-mail, direcionando-a facilmente aos órgãos competentes.
 
-### **4. Público-Alvo**
+### **Público-Alvo**
 
 O ecossistema foi projetado para atender a dois perfis de usuários principais:
 
 - **Cidadão Engajado:** Moradores (pessoas físicas) que desejam contribuir ativamente para a melhoria do seu bairro e cidade. Utilizam o app para reportar problemas de forma rápida e acompanhar o impacto de suas ações.
 - **Gestor Público Municipal:** Equipes de secretarias de meio ambiente, limpeza urbana ou subprefeituras. Utilizam a plataforma como uma ferramenta de diagnóstico, recebendo dados georreferenciados para otimizar a alocação de recursos e planejar ações de fiscalização e limpeza.
 
-### **5. Autores**
+### **Autores**
 
 - **Alejjandro Martins Dutra**
 - **Dieglison Correia Varejão**
 - **Joel Carlos Alípio dos Santos Junior**
 - **Lanna da Silva Lima**
 - **Peterson Kevyn Silva de Souza**
+
