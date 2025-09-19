@@ -1,3 +1,7 @@
+# 🚀 Diagrama de Classes – DeOlho NoLixo
+
+</br>
+</br>
 
 ```mermaid
 ---
@@ -79,47 +83,56 @@ Denuncia -- StatusDenuncia : possui
 </br>
 </br>
 
-### Descrição Formal do Diagrama de Classes UML – Projeto DeOlho NoLixo
+---
 
-Este diagrama detalha a arquitetura de software do sistema "**DeOlho NoLixo**", conforme representado no diagrama de classes UML. O diagrama modela as entidades, serviços e seus inter-relacionamentos, estabelecendo a base para o desenvolvimento, a manutenção e a escalabilidade da aplicação.
+</br>
 
-#### **🛠️. Componentes da Arquitetura**
+## 👤 Usuário
 
-A arquitetura é composta por classes de entidade, serviços, uma interface e uma enumeração, cada qual com responsabilidades claramente definidas.
+- Guarda: nome, e-mail, senha, foto, cadastro.
+- Pode: logar, editar perfil, recuperar senha, ver histórico.
 
-- **👤`Usuario` (Entidade):** Representa o usuário final do sistema.
+## 📝 Denúncia
 
-- **Atributos:** `userName`, `dataCadastro`, `nome`, `email`, `senha`, `foto`.
-- **Métodos:** Contempla as funcionalidades de autenticação (`LoginGoogle`, `recuperarSenha`, `Logout`), gerenciamento de perfil (`editarPerfil`) e acesso a dados (`visualizarHistorico`).
-- **Relacionamento:** Mantém uma relação de composição com a classe `Denuncia`, indicando que um usuário é proprietário das denúncias que cria.
+- Tem: descrição, localização, tipo, status, foto, data, curtidas.
+- Pode: ser registrada, curtida, compartilhada.
 
-- **📝`Denuncia` (Entidade):** É a entidade central do domínio, representando o registro de um descarte irregular.
+## 📰 Feed
 
-- **Atributos:** `id`, `descricao`, `localizacao`, `categoria`, `foto`, `status`, `dataEnvio`, `curtidas`.
-- **Métodos:** Encapsula as ações primárias do ciclo de vida da denúncia: `registrar`, `compartilhar` e `curtir`.
-- **Relacionamento:** Utiliza a enumeração `StatusDenuncia` para gerenciar seu estado.
+- Exibe várias denúncias.
+- Permite filtrar 🔍, visualizar 👀 e interagir 👍💬.
 
-- **`OrgaoResponsavel` (Entidade):** Modela a entidade que armazena os dados cadastrais dos órgãos competentes.
+## 📊 StatusDenuncia
 
-- **Atributos:** `sigla`, `dataCadastro`, `email`, `tipoOrgao`.
-- **Função:** Atua como um repositório de dados para consulta pela camada de serviço, não possuindo lógica de negócio própria.
+- Diz em qual fase está cada denúncia (ex: recebida, analisando, resolvida).
 
-- **📰`Feed` (Serviço):** Classe responsável pela apresentação e consulta das denúncias na interface do usuário.
+## 🧠 Classificação IA
 
-- **Métodos:** `visualizarFeed` e `filtrarDenuncias`, que retornam listas de objetos `Denuncia`.
+- Analisa imagem 🖼️ e texto ✍️ automaticamente,
+- Classifica tipo de resíduo, impacto ambiental e resumo do caso.
 
-- **🤖`ClassificacaoIA` (Serviço):** Abstrai os algoritmos de inteligência artificial para análise e enriquecimento dos dados da denúncia.
+## 🏛️ Órgão Responsável
 
-- **Métodos:** Inclui funcionalidades para `processarImagem`, `classificarImpactoAmbiental`, `classificarTipoResiduo`, `analisarTexto`, `gerarResumo` e `validarClassificacao`.
+- Recebe as denúncias e age.
+- Tem: nome, sigla, email, tipo.
 
-- **🔗`IntegracaoExterna` (Serviço):** Orquestra a comunicação com sistemas e entidades externas, primariamente os órgãos responsáveis.
+## 🔗 Integração Externa
 
-- **Métodos:** `selecionarOrgaoCompetente`, `gerarCorpoEmail` e `enviarEmailOrgao`.
-- **Relacionamento:** Implementa a interface `NotificacaoService`, aderindo a um contrato padrão para o envio de notificações.
+- Faz a ponte entre o app e órgãos.
+- Gera e dispara e-mails automáticos 📧.
 
-- **📬`NotificacaoService` (Interface):** Define um contrato para os serviços de notificação.
+## 📣 Notificação (Interface)
 
-- **Métodos:** `enviarNotificacao` e `gerarConteudo`.
-- **Função:** Promove baixo acoplamento e facilita a extensão do sistema com novos mecanismos de notificação.
+- Define o padrão para notificações no sistema ✔️.
 
-- **🔄`StatusDenuncia` (Enumeração):** Define um conjunto fixo de estados para o atributo `status` da classe `Denuncia` (`EmAnalise`, `Enviada`, `Resolvida`), garantindo consistência e controle sobre o fluxo de trabalho.
+---
+
+### 🔀 Relações Importantes
+
+- 👤 **Usuário pode criar várias 📝 denúncias**
+- 📰 **Feed centraliza todas as 📝 denúncias**
+- 📝 **Denúncia sempre tem um 📊 status**
+- 📝 **Pode ser avaliada por IA 🧠**
+- 📝 **Pode ser enviada para um 🏛️ órgão responsável**
+- 🔗 **Integração Externa conecta denúncias e órgãos**
+- 📣 **Notificação dá a receita de como avisar (seguida pela Integração Externa)**
