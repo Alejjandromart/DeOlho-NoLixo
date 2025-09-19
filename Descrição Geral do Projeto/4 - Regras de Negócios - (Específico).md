@@ -6,6 +6,9 @@ Esta documentação serve como um guia para a equipe de desenvolvimento, detalha
 
 <br>
 
+---
+<br>
+
 ### Tabela de Regras de Negócio
 
 |**Id**|**Descrição**|**Prioridade**|
@@ -48,4 +51,5 @@ Esta documentação serve como um guia para a equipe de desenvolvimento, detalha
 
 - **Prioridade Alta:** Indica regras críticas para a segurança, funcionalidade principal ou conformidade legal do aplicativo.
 - **Prioridade Média:** Refere-se a regras importantes para a experiência do usuário e a robustez do sistema, mas que não são impeditivas para o funcionamento básico.
+
 - **Relação com Requisitos Funcionais:** Lembre-se que toda Regra de Negócio deve gerar um ou mais Requisitos Funcionais. Por exemplo, a `RN-H1-02` (Complexidade da Senha) se traduz no requisito funcional de validar a senha durante o cadastro e a troca.
