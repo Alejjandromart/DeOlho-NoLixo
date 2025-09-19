@@ -8,6 +8,8 @@ As colunas **Id**, **Descrição**, **Categoria** e **Prioridade** são ob
 
 ---
 
+<br>
+
 |**Id**|**Descrição**|**Categoria**|**Prioridade**|**Testável / Verificável**|
 |---|---|---|---|---|
 |RNF-H4-1|O preview da foto deve ser exibido em tela cheia, com opção de confirmar ou refazer a captura.|Usabilidade|Alta|Sim, inspecionando o comportamento da tela de captura.|
@@ -34,5 +36,6 @@ As colunas **Id**, **Descrição**, **Categoria** e **Prioridade** são ob
 - **Testável / Verificável**: Indica se há critérios práticos para validação do requisito durante testes e revisões de código.
 
 <br>
+
 
 > Estes RNFs devem ser adotados e monitorados em todas as etapas do desenvolvimento para garantir a qualidade e segurança do sistema.
