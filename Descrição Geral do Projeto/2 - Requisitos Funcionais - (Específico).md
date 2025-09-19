@@ -4,6 +4,12 @@ Os **Requisitos Funcionais (RF)** listados abaixo definem as funcionalidades ess
 
 A tabela organiza os requisitos com colunas que especificam o **Id**, a **Descrição** e a **Prioridade** de cada funcionalidade, além de informações complementares como **Pré-condição**, **Pós-condição** e **Testável**, para facilitar o desenvolvimento e a validação. Cada requisito funcional deve ser representado como uma elipse no diagrama de caso de uso, conectando-se aos atores relevantes (ex.: "Usuário"), conforme as melhores práticas de modelagem de sistemas.
 
+<br>
+
+---
+
+<br>
+
 | **Id**   | **Descrição**                                                                                     | **Prioridade** | **Pré-condição**                              | **Pós-condição**                                      | **Testável**                                                                 |
 |----------|---------------------------------------------------------------------------------------------------|----------------|-----------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------|
 | RF-H1    | O sistema deve permitir que o usuário faça login utilizando e-mail e senha.                      | Alta           | Usuário deve ter uma conta registrada.        | Usuário autenticado e redirecionado para a tela inicial. | Sim, verificar se login com credenciais corretas concede acesso.            |
@@ -15,3 +21,4 @@ A tabela organiza os requisitos com colunas que especificam o **Id**, a **Descri
 | RF-H8    | O sistema deve permitir que o usuário compartilhe sua localização em tempo real, mediante consentimento, ao registrar a denúncia. | Alta   | Usuário deve consentir com compartilhamento.  | Localização anexada à denúncia com precisão.          | Sim, testar precisão da localização e opção de consentimento.               |
 | RF-H14   | O sistema deve permitir que o usuário compartilhe o post da denúncia no feed de denúncias.       | Média          | Denúncia deve estar registrada.               | Denúncia visível no feed de outros usuários.          | Sim, verificar se a denúncia aparece no feed após compartilhamento.         |
 | RF-H16   | O sistema deve exibir um feed de denúncias (ou local escolhido pelo usuário), com possibilidade de aplicar filtros e atualizar em tempo real. | Alta | Usuário deve estar logado.                    | Feed exibido com filtros funcionais e atualizações.   | Sim, testar carregamento, filtros e atualizações em tempo real.            |
+
