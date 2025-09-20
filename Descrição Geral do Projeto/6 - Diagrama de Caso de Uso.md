@@ -8,7 +8,7 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 ### 1. **Diagrama de Visão Geral**
 
-<img width="13104" height="5826" alt="Visão Geral" src="https://github.com/user-attachments/assets/412de091-2140-40c0-9ecc-a9873d875cae" />
+<img width="16384" height="8297" alt="Visão Geral" src="https://github.com/user-attachments/assets/b5c795f3-b153-4572-849f-6173c6dab2ee" />
 
 - **Atores Principais:** Usuário (cidadão), Sistema, Sistema de IA, Órgão Responsável.
 - **Principais Casos de Uso:**
@@ -24,7 +24,7 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 ### 2. **Criação de Denúncia**
 
-<img width="4405" height="2205" alt="Criação de Denúncia" src="https://github.com/user-attachments/assets/8eae84c1-686b-4fc6-b4cf-4d7bd7ecc813" />
+<img width="4405" height="2205" alt="Criação de Denúncia" src="https://github.com/user-attachments/assets/76103e3b-300f-43d1-8325-cb1a3f642c2f" />
 
 - **Atores:** Usuário
 - **Casos de Uso Chave:**
@@ -39,7 +39,7 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 ### 3. **Detalhe da Denúncia**
 
-<img width="4105" height="2055" alt="Detalhe da Denúncia" src="https://github.com/user-attachments/assets/08f9a8a1-9201-40f7-9d36-978e614d1cd7" />
+<img width="4105" height="2055" alt="Detalhe da Denúncia" src="https://github.com/user-attachments/assets/b7d884ed-401f-4ac5-b24c-2d54c393b0c6" />
 
 - **Atores:** Usuário.
 - **Casos de Uso Principais:**
@@ -53,7 +53,7 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 ### 4. **Atualização de Status**
 
-<img width="1820" height="1455" alt="Atualização de Status" src="https://github.com/user-attachments/assets/ee977e51-2a41-4f59-ac38-28de7dd7989c" />
+<img width="1545" height="1155" alt="Atualização de Status" src="https://github.com/user-attachments/assets/c2e0ecc3-d354-47a8-af2d-4132b6111c7a" />
 
 - **Atores:** Sistema.
 - **Caso de Uso:** Atualizar o status de uma denúncia ao longo do processo (por ex.: aguardando, em análise, resolvido). O sistema pode disparar essas atualizações automaticamente (por regras) ou mediante ações de operadores.
@@ -63,7 +63,7 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 ### 5. **Feed de Denúncia**
 
-<img width="4105" height="2555" alt="Feed de Denúncia" src="https://github.com/user-attachments/assets/399fc5b7-649d-43e7-a42d-c74b4a9585ff" />
+<img width="4130" height="2555" alt="Feed de Denúncia" src="https://github.com/user-attachments/assets/fbb66dcf-14d5-4776-8eeb-25568dd6d6f8" />
 
 - **Atores:** Usuário.
 - **Casos de Uso:**
@@ -76,7 +76,7 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 ### 6. **Comunicação Externa**
 
-<img width="2595" height="2960" alt="Comunicação Externa" src="https://github.com/user-attachments/assets/918312f8-98fa-4bb5-9e93-aec61ac5d97d" />
+<img width="2615" height="2960" alt="Comunicação Externa" src="https://github.com/user-attachments/assets/97e79158-6e11-4597-8984-ce00dd2fac17" />
 
 - **Atores:** Usuário, Órgão Responsável.
 - **Fluxo:** O usuário ou sistema seleciona o órgão competente, gera o corpo do e-mail padronizado e envia a mensagem para o órgão responsável tomar providências — tudo encapsulado como “Comunicação Externa”.
@@ -87,7 +87,7 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 ### 7. **Processamento de IA**
 
-<img width="3655" height="3005" alt="Processamento de IA" src="https://github.com/user-attachments/assets/e2618eb2-6826-4e7b-ac75-7bfc0d7a8bd5" />
+<img width="3120" height="3005" alt="Processamento de IA" src="https://github.com/user-attachments/assets/7d096532-0ced-41ca-a741-f398e06def1a" />
 
 - **Ator:** Sistema de IA.
 - **Processos:**
@@ -97,3 +97,4 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 - **Resultado:** O subsistema de IA aprimora o registro das denúncias, sugere categorias e avalia gravidade, acelerando resposta e triagem pelos órgãos competentes.
 <br>
+
