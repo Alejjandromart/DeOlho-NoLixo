@@ -91,10 +91,11 @@ O conjunto dos **diagramas mostra como usuários, o sistema e entidades externas
 
 - **Ator:** Sistema de IA.
 - **Processos:**
-    - Análise de texto: extração de informações e geração de tags automáticas, classificação do tipo de resíduo.
+    - Análise de texto: extração de informações, classificação do tipo de resíduo.
     - Processamento de imagem: classificação de impacto ambiental.
     - Classificações são validadas em fluxo recursivo.
 
 - **Resultado:** O subsistema de IA aprimora o registro das denúncias, sugere categorias e avalia gravidade, acelerando resposta e triagem pelos órgãos competentes.
 <br>
+
 
