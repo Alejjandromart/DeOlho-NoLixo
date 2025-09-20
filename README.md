@@ -9,8 +9,9 @@
 2. [Requisitos Funcionais - (Específico)](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/2%20-%20Requisitos%20Funcionais%20-%20(Espec%C3%ADfico).md)
 3. [Requisitos Não Funcionais - (Específico)](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/3%20-%20Requisitos%20N%C3%A3o%20Funcionais%20-%20(Espec%C3%ADfico).md)
 4. [Regras de Negócios - (Específico)](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/4%20-%20Regras%20de%20Neg%C3%B3cios%20-%20(Espec%C3%ADfico).md)
-5. [Diagrama de Caso de Uso](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/5%20-%20Diagrama%20de%20Caso%20de%20Uso.md)
-6. [Diagrama de Classe](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/6%20-%20Diagrama%20de%20Classes.md)
+5. [Requisitos para Próximas Versões](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/5%20-%20RF%2C%20RNF%2C%20RN%20-%20Futuras.md)
+6. [Diagrama de Caso de Uso](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/6%20-%20Diagrama%20de%20Caso%20de%20Uso.md)
+7. [Diagrama de Classe](https://github.com/Alejjandromart/DeOlho-NoLixo/blob/main/Descri%C3%A7%C3%A3o%20Geral%20do%20Projeto/7%20-%20Diagrama%20de%20Classes.md)
 
 <br>
 
@@ -53,5 +54,6 @@ O ecossistema foi projetado para atender a dois perfis de usuários principais:
 - **Joel Carlos Alípio dos Santos Junior**
 - **Lanna da Silva Lima**
 - **Peterson Kevyn Silva de Souza**
+
 
 
