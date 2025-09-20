@@ -3,7 +3,8 @@
 <br>
 
 > **Atenção:**  
-> Os requisitos listados a seguir correspondem a **funcionalidades previstas, em análise ou prototipação**, planejadas para versões futuras do aplicativo DeOlho NoLixo – Citizen Waste Monitoring App.  
+> Os requisitos listados a seguir correspondem a **funcionalidades previstas, em análise ou prototipação**, planejadas para versões futuras do aplicativo DeOlho NoLixo.
+> 
 > Eles **não fazem parte da versão atual** do sistema, sendo apresentados aqui exclusivamente para fins de documentação de evolução do projeto e registro acadêmico.
 
 
@@ -54,3 +55,4 @@ Os requisitos abaixo seguem a formatação oficial do projeto para RF (Requisito
 | RN-H19 | Estatísticas no painel pessoal só contabilizam denúncias efetivamente públicas e confirmadas por moderação.                       | Média          |
 | RN-H20 | Pontos de coleta sugeridos ficam visíveis só após aprovação por votação de, no mínimo, 3 usuários distintos ou moderação interna. | Média          |
 | RN-H21 | Rascunhos de denúncias ficam armazenados localmente por até 15 dias; após esse prazo, são removidos automaticamente.              | Baixa          |
+
